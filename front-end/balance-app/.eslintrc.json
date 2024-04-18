@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "error", // Not necessary for React 17+
+    "react/prop-types": "off", // Disable if not using PropTypes
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "react/jsx-uses-react": "off", // Not needed with React 17+
+    "react/jsx-uses-vars": "off",
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect the version of React to use
+    }
+  }
+}

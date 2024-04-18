@@ -1,0 +1,12 @@
+{
+  "name": "customer-balance",
+  "packageManager": "yarn@3.4.1",
+  "private": true,
+  "workspaces": [
+    "front-end/*"
+  ],
+  "scripts": {
+    "build:app": "yarn workspaces foreach --parallel --include '@frontend/*' run build",
+    "start:app": "yarn workspaces foreach --jobs 20 --interlaced --parallel --include  '@frontend/*' run start"
+  }
+}

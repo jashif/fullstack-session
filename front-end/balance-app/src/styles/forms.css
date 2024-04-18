@@ -1,0 +1,92 @@
+/* Forms.css */
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.2);
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:active {
+  background-color: #004085;
+}
+
+/* Enhancements for select elements */
+select.form-control {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%230072bc" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 24px;
+}
+
+/* Additions to Forms.css */
+.balances-table {
+  width: 100%;
+  border-collapse: collapse; /* Ensures borders between cells are merged */
+  margin-top: 20px; /* Adds space between form and table */
+}
+
+.balances-table th,
+.balances-table td {
+  border: 1px solid #ddd; /* Light grey border for readability */
+  padding: 8px; /* Adequate padding for content */
+  text-align: left; /* Align text to the left */
+}
+
+.balances-table th {
+  background-color: #f0f0f0; /* Medium grey background for headers */
+  color: #333; /* Dark text for contrast */
+}
+
+.balances-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Slightly off-white for every other row */
+}
+
+.balances-table tr:hover {
+  background-color: #e0e0e0; /* Light grey background on hover for interactivity */
+}
