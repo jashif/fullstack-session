@@ -35,7 +35,7 @@
 ### Application Diagram
 
 <p align="center">
-<img src="architecture.png"/>
+<img src="Balance.drawio.png"/>
 </p>
 
 ### React application
