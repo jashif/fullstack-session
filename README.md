@@ -46,6 +46,10 @@
 4) Create a balance list component
 
 ### Backend API
+NodeJS Intro
+<p>
+  <img src="nodejs.png">
+</p>
 1) Create a nodeJs backend based on express
 2) Create a controller - Create balance, Get Balance
 
