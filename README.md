@@ -48,7 +48,6 @@
 ### Backend API
 1) Create a nodeJs backend based on express
 2) Create a controller - Create balance, Get Balance
-3) Creates a database instance with postgress
 
 
 ### Deploy application
